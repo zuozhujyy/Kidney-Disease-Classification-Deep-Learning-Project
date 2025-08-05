@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/PycharmProjects/Kidney-Disease-Classification-Deep-Learning-Project/mlruns/0/0a09e8b1488347f890662dd4bccd0bcb/artifacts
+end_time: 1754420485783
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0a09e8b1488347f890662dd4bccd0bcb
+run_name: learned-finch-476
+run_uuid: 0a09e8b1488347f890662dd4bccd0bcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754420470983
+status: 3
+tags: []
+user_id: zuozh
