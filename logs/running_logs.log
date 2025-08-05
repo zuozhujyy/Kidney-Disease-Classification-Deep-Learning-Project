@@ -1468,3 +1468,60 @@ x==========x]
 [2025-08-05 15:16:03,290: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-08-05 18:04:18,367: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-05 18:04:18,367: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-05 18:04:18,367: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-05 18:04:18,367: INFO: common: created directory at: artifacts]
+[2025-08-05 18:04:18,367: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-05 18:04:18,367: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-05 18:04:25,884: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-05 18:04:26,371: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-05 18:07:20,348: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-08-05 18:07:20,350: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-05 18:07:20,351: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-05 18:07:20,352: INFO: common: created directory at: artifacts]
+[2025-08-05 18:07:20,352: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-08-05 18:07:20,352: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-05 18:07:27,746: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-08-05 18:07:28,229: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-08-05 18:07:37,284: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-08-05 18:07:37,284: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-08-05 18:07:37,821: INFO: stage_02_prepare_base_model: ********************]
+[2025-08-05 18:07:37,821: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-08-05 18:07:37,821: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-05 18:07:37,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-05 18:07:37,825: INFO: common: created directory at: artifacts]
+[2025-08-05 18:07:37,825: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-08-05 18:07:38,157: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-08-05 18:07:38,292: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+]
+[2025-08-05 18:07:42,379: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-08-05 18:07:42,379: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-08-05 18:07:42,909: INFO: stage_03_model_training: *******************]
+[2025-08-05 18:07:42,909: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2025-08-05 18:07:42,911: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-05 18:07:42,912: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-05 18:07:42,913: INFO: common: created directory at: artifacts]
+[2025-08-05 18:07:42,913: INFO: common: created directory at: artifacts\training]
+[2025-08-05 18:08:08,948: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-08-05 18:08:12,991: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-08-05 18:08:12,991: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-08-05 18:08:14,109: INFO: stage_04_model_evaluation: *******************]
+[2025-08-05 18:08:14,110: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-08-05 18:08:14,112: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-08-05 18:08:14,113: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-08-05 18:08:14,114: INFO: common: created directory at: artifacts]
+[2025-08-05 18:08:22,519: INFO: common: json file saved at: scores.json]
+[2025-08-05 18:08:22,519: INFO: common: json file saved at: scores.json]
+[2025-08-05 18:08:24,498: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 16). These functions will not be directly callable after loading.]
+[2025-08-05 18:08:24,885: INFO: builder_impl: Assets written to: C:\Users\zuozh\AppData\Local\Temp\tmpmb7f_ib9\model\data\model\assets]
+[2025-08-05 18:09:02,365: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
